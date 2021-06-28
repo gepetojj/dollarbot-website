@@ -21,4 +21,4 @@
 .env.test.local
 .env.production.local
 
-./vscode
+/.vscode
