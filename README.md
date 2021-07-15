@@ -2,12 +2,12 @@
 
 > Um bot feito para o discord que tem funções relacionadas ao valor do dólar.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2a4720dc-6049-4857-ac29-a46934c426e3/deploy-status)](https://dollarbot.netlify.app)
+[![Vercel Status](https://therealsujitk-vercel-badge.vercel.app/?app=dollarbotds&style=flat-square)](https://dollarbotds.vercel.app)
 
 ## Objetivo
 
 O dollarbot tem como objetivo principal facilitar a informação sobre o dólar norte-americano pelo Discord.  
-O website do bot estará dispoível neste [link.](https://dollarbot.netlify.app)
+O website do bot estará dispoível neste [link.](https://dollarbotds.vercel.app)
 
 ## Tecnologias  
 
@@ -27,3 +27,27 @@ Firestore - Estabelecendo conexões com o banco de dados.
 * Controle sua carteira, veja seus gastos e ganhos.  
 * Use seus 'dollars' do dollarbot na loja, com itens utilizáveis em servidores do Discord.  
 * Altere as configurações do bot em seu servidor, se for admin.  
+
+## Projeto de design
+
+Projeto da interface do dollarbot, feita no Figma.  
+
+### Página inicial
+
+![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/landing.png?raw=true)
+
+### Dashboard
+
+![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/dashboard.png?raw=true)
+
+### Carteira
+
+![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/wallet.png?raw=true)
+
+### Loja
+
+![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/store.png?raw=true)
+
+### Servidores
+
+![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/guild.png?raw=true)
