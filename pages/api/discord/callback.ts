@@ -1,6 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { sign } from "jsonwebtoken";
 import { serialize } from "cookie";
+
 import { firestore } from "../../../utils/firebase";
 import { config } from "../../../utils/config";
 import { axios } from "../../../utils/axios";
@@ -38,7 +39,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 			}
 		);
 		let userData: Discord.User = userDataRequest.data;
-		userData.avatarURL = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
+		userData.avatarURL = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.webp`;
 
 		if (
 			!("id" in userData) ||
@@ -59,7 +60,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 		userGuilds.forEach((guild, index) => {
 			userGuilds[
 				index
-			].iconURL = `https://cdn.discordapp.com/icons/${guild.id}/${guild.icon}.png`;
+			].iconURL = `https://cdn.discordapp.com/icons/${guild.id}/${guild.icon}.webp`;
 		});
 		let displayGuilds: Discord.Guild[] = [];
 		const dollarbotGuilds = await firestore.collection("guilds").get();

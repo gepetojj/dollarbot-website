@@ -42,10 +42,9 @@ export default function User({
 }: IUserProps) {
 	return (
 		<UserArea>
-			<Image
+			<img
 				src={avatarURL}
 				alt="Avatar do usuário"
-				layout="fixed"
 				width={30}
 				height={30}
 			/>

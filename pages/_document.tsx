@@ -53,7 +53,7 @@ class _Document extends Document {
 						property="og:description"
 						content="O dollarbot é um bot para o Discord, com funcionalidades relacionadas ao dólar. Convide-o agora mesmo para o seu servidor."
 					/>
-					<meta property="og:image" content="/banner.png" />
+					<meta property="og:image" content="/images/banner.png" />
 					<meta
 						property="twitter:card"
 						content="summary_large_image"
@@ -67,7 +67,7 @@ class _Document extends Document {
 						property="twitter:description"
 						content="O dollarbot é um bot para o Discord, com funcionalidades relacionadas ao dólar. Convide-o agora mesmo para o seu servidor."
 					/>
-					<meta property="twitter:image" content="/banner.png" />
+					<meta property="twitter:image" content="/images/banner.png" />
 
 					<link rel="preconnect" href="https://fonts.gstatic.com" />
 					<link

@@ -22,3 +22,6 @@
 .env.production.local
 
 /.vscode
+
+# Local Netlify folder
+.netlify

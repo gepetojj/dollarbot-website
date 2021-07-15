@@ -129,7 +129,7 @@ export default function Home() {
 				<Highlight>
 					<HighlightLeft>
 						<Image
-							src="/logo.png"
+							src="/images/logo.png"
 							alt="Logo do dollarbot"
 							layout="fixed"
 							width={153}

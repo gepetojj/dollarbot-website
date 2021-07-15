@@ -4,6 +4,7 @@ import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 import Grow from "@material-ui/core/Grow";
 import { useRouter } from "next/router";
 import { useRef, useEffect, useState, ChangeEvent } from "react";
+
 import { useSettings } from "./SettingsContext";
 
 export interface IHeaderProps {
@@ -202,7 +203,7 @@ export default function Header({
 		<HeaderArea>
 			<LeftSide>
 				<Image
-					src="/banner-logo.png"
+					src="/images/banner-logo.png"
 					alt="Logo do dollarbot"
 					layout="fixed"
 					width={217}

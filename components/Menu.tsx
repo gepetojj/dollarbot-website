@@ -1,18 +1,17 @@
-import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import styled from "styled-components";
+import Grow from "@material-ui/core/Grow";
+import ClickAwayListener from "@material-ui/core/ClickAwayListener";
+import { useState } from "react";
+import { useRouter } from "next/router";
 import {
 	ExitToAppRounded,
 	HomeRounded,
 	AccountBalanceWalletRounded,
 	LocalGroceryStoreRounded,
 } from "@material-ui/icons";
-import Grow from "@material-ui/core/Grow";
-import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 
 import { Discord } from "../utils/types";
-import { useState } from "react";
 
 export interface IMenuProps {
 	guilds: Discord.Guild[];
@@ -287,10 +286,9 @@ export default function Menu({ guilds }: IMenuProps) {
 					})[0];
 					return (
 						<DropdownPage selected>
-							<Image
+							<img
 								src={guild.iconURL}
 								alt="Ícone do servidor"
-								layout="fixed"
 								width={30}
 								height={30}
 							/>
@@ -348,10 +346,9 @@ export default function Menu({ guilds }: IMenuProps) {
 									router.pathname === `/guild/${guild.id}`
 								}
 							>
-								<Image
+								<img
 									src={guild.iconURL}
 									alt="Ícone do servidor"
-									layout="fixed"
 									width={30}
 									height={30}
 								/>
@@ -412,10 +409,9 @@ export default function Menu({ guilds }: IMenuProps) {
 									<Page
 										selected={router.query.id === guild.id}
 									>
-										<Image
+										<img
 											src={guild.iconURL}
 											alt="Ícone do servidor"
-											layout="fixed"
 											width={30}
 											height={30}
 										/>
