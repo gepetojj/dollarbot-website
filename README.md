@@ -34,20 +34,20 @@ Projeto da interface do dollarbot, feita no Figma.
 
 ### Página inicial
 
-![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/landing.png?raw=true)
+![Landing](https://github.com/gepetojj/dollarbot-website/blob/main/.github/assets/landing.png?raw=true)
 
 ### Dashboard
 
-![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/dashboard.png?raw=true)
+![Dashboard](https://github.com/gepetojj/dollarbot-website/blob/main/.github/assets/dashboard.png?raw=true)
 
 ### Carteira
 
-![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/wallet.png?raw=true)
+![Wallet](https://github.com/gepetojj/dollarbot-website/blob/main/.github/assets/wallet.png?raw=true)
 
 ### Loja
 
-![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/store.png?raw=true)
+![Store](https://github.com/gepetojj/dollarbot-website/blob/main/.github/assets/store.png?raw=true)
 
 ### Servidores
 
-![Landing](https://github.com/gepetojj/dollarbot-website/tree/main/.github/assets/guild.png?raw=true)
+![Guild](https://github.com/gepetojj/dollarbot-website/blob/main/.github/assets/guild.png?raw=true)
