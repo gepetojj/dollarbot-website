@@ -3,7 +3,7 @@ const config = {
 	baseUrl:
 		process.env.NODE_ENV === "development"
 			? "http://localhost:3000"
-			: "https://dollarbot.netlify.app",
+			: "https://dollarbotds.vercel.app",
 	jwtSecret: String(process.env.JWT_SECRET),
 	clientId: String(process.env.CLIENT_ID),
 	clientSecret: String(process.env.CLIENT_SECRET),
